@@ -27,6 +27,7 @@ Currently focused on developing practical solutions in:
 * NumPy
 * Scikit-learn
 * Matplotlib
+* Streamlit
 * Git & GitHub
 * Google Earth Engine
 
