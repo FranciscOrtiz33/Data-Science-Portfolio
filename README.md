@@ -1,41 +1,54 @@
-# Data-Science-Portfolio
-Data science and machine learning projects using Python, SQL, and real-world datasets.
 
-# Data Science Portfolio
+# Data Science & Data Engineering Portfolio
 
-Welcome to my data science portfolio.
+Hi, I'm Francisco Javier Ortiz, a data professional with a background in Electronics and Telecommunications.
 
-This repository contains projects focused on data analysis, machine learning, and data engineering using Python, SQL, and related technologies.
+My work focuses on Python, data engineering, machine learning, and geospatial data processing. This portfolio showcases projects involving exploratory data analysis, data validation, database integration, and reproducible data workflows.
 
-## About Me
+## Featured Projects
 
-I am a data professional with a background in electronics and telecommunications, with experience working with data, machine learning, and technical projects.
+### 1. Geospatial Data Validation & ETL Pipeline
 
-Currently focused on developing practical solutions in:
+**Python · Shapely · Pandas · Streamlit · PostgreSQL/PostGIS · Docker · QGIS**
 
-* Data Science
-* Machine Learning
-* Data Engineering
-* Data Analysis
-* Geospatial and Satellite Data
+A geospatial data processing application that validates agricultural lot geometries before loading them into a spatial database.
 
-## Technologies
+**Key features:**
+- Validation of Polygon and MultiPolygon geometries.
+- Detection of self-intersections, empty geometries, and unsupported geometry types.
+- Export of valid and invalid records for review.
+- GeoJSON export for visual inspection in QGIS.
+- Approved data submission to PostgreSQL/PostGIS.
+- Duplicate prevention and automated validation tests.
 
-* Python
-* SQL
-* Pandas
-* NumPy
-* Scikit-learn
-* Matplotlib
-* Streamlit
-* Git & GitHub
-* Google Earth Engine
+**[View project →](https://github.com/FranciscOrtiz33/geospatial-data-pipeline)**
 
-## Projects
+### 2. Titanic — Exploratory Data Analysis
 
-Projects will be added progressively.
+**Python · Pandas · Matplotlib · Jupyter Notebook**
 
-## Contact
+Exploratory analysis of the Titanic passenger dataset, investigating the relationships between survival, sex, passenger class, and age.
 
-* LinkedIn: [Your LinkedIn]
-* Email: [Your Email]
+**Key features:**
+- Data exploration and missing-value analysis.
+- Survival rate comparisons.
+- Analysis of interactions between passenger characteristics.
+- Data visualization and interpretation of findings.
+
+**[View project →](https://github.com/FranciscOrtiz33/python-data-analysis)**
+
+## Technical Skills
+
+**Programming and data:** Python, SQL, Pandas, NumPy
+
+**Databases and data engineering:** PostgreSQL, PostGIS, ETL, data validation, REST APIs
+
+**Geospatial:** Shapely, GeoPandas, QGIS, Google Earth Engine
+
+**Machine learning:** Scikit-learn, exploratory data analysis, model evaluation
+
+**Tools:** Git, GitHub, Docker, Streamlit, Jupyter Notebook
+
+## About This Portfolio
+
+Projects are documented with their objectives, technologies, methodology, and limitations. The geospatial pipeline uses synthetic data and a standalone implementation suitable for public demonstration.
