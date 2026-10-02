@@ -1,80 +1,122 @@
-
 # Data Science & Data Engineering Portfolio
 
-Hi, I'm Francisco Javier Ortiz, a data professional with a background in Electronics and Telecommunications.
+Hi, I'm **Francisco Javier Ortiz**, a data professional with a background in Electronics and Telecommunications.
 
-My work focuses on Python, data engineering, machine learning, and geospatial data processing. This portfolio showcases projects involving exploratory data analysis, data validation, database integration, and reproducible data workflows.
+My work focuses on **Python, data engineering, machine learning, geospatial analytics, and remote sensing**. This portfolio showcases projects involving geospatial machine learning, ETL pipelines, data validation, database integration, exploratory data analysis, and reproducible data workflows.
+
+---
 
 ## Featured Projects
 
-## Urban Earth Observation
+### 1. Urban Earth Observation
 
 **Geospatial Machine Learning · Remote Sensing · Google Earth Engine · Streamlit**
 
-Interactive geospatial application for city-specific land-cover classification, multitemporal change detection, and Land Surface Temperature analysis.
+Interactive geospatial application for **city-specific land-cover classification, multitemporal change detection, and Land Surface Temperature analysis**.
 
-The system trains a dedicated Random Forest model for each study area using Sentinel-2, spectral indices, SRTM, and ESA WorldCover reference labels. The trained classifier is reused for temporal inference, while Landsat 8/9 imagery is integrated to analyze surface temperature by predicted land-cover class.
+The system trains a dedicated Random Forest model for each study area using Sentinel-2 multispectral imagery, spectral indices, SRTM topographic variables, and ESA WorldCover reference labels. The trained classifier is then reused for temporal inference, while Landsat 8/9 imagery is integrated to analyze surface temperature by predicted land-cover class.
 
-### Highlights
+**Key features:**
 
-- City-specific Random Forest models
-- Sentinel-2 multispectral processing
-- NDVI, NDBI, MNDWI, and BSI feature engineering
-- SRTM elevation and slope integration
-- Multiyear land-cover classification
-- Land-cover transition matrices
-- Gains and losses analysis
-- Landsat Land Surface Temperature
-- Integrated land-cover and thermal analysis
-- Interactive Streamlit and Folium interface
-- Google Earth Engine processing and GeoTIFF export
+- City-specific Random Forest models.
+- Sentinel-2 multispectral preprocessing.
+- NDVI, NDBI, MNDWI, and BSI feature engineering.
+- SRTM elevation and slope integration.
+- ESA WorldCover-based reference labels.
+- Multiyear land-cover classification.
+- Land-cover area and trend analysis.
+- Gains, losses, and transition matrices.
+- Landsat 8/9 Land Surface Temperature analysis.
+- Integrated land-cover and thermal change analysis.
+- Interactive Streamlit and Folium interface.
+- Google Earth Engine processing and GeoTIFF export.
 
-**Tech:** Python · Google Earth Engine · Streamlit · Folium · Pandas · Random Forest · Sentinel-2 · Landsat · SRTM · ESA WorldCover
+**Tech:** Python · Google Earth Engine · Streamlit · Folium · Pandas · Random Forest · Sentinel-2 · Landsat 8/9 · SRTM · ESA WorldCover
 
-[View Project](https://github.com/FranciscOrtiz33/urban-earth-observation)
+[**View project →**](https://github.com/FranciscOrtiz33/urban-earth-observation)
 
-### 1. Geospatial Data Validation & ETL Pipeline
+---
+
+### 2. Geospatial Data Validation & ETL Pipeline
 
 **Python · Shapely · Pandas · Streamlit · PostgreSQL/PostGIS · Docker · QGIS**
 
-A geospatial data processing application that validates agricultural lot geometries before loading them into a spatial database.
+A geospatial data-processing application that validates agricultural lot geometries before loading approved records into a spatial database.
+
+The project reproduces a practical geospatial ETL workflow involving ingestion, geometry validation, quality control, review, database integration, and duplicate prevention.
 
 **Key features:**
+
 - Validation of Polygon and MultiPolygon geometries.
-- Detection of self-intersections, empty geometries, and unsupported geometry types.
-- Export of valid and invalid records for review.
-- GeoJSON export for visual inspection in QGIS.
-- Approved data submission to PostgreSQL/PostGIS.
-- Duplicate prevention and automated validation tests.
+- Detection of self-intersections, empty geometries, insufficient coordinates, and unsupported geometry types.
+- Separation of valid and invalid records.
+- CSV and GeoJSON outputs for review.
+- Visual inspection workflow using QGIS.
+- PostgreSQL/PostGIS integration.
+- Duplicate-record prevention.
+- Automated validation workflow.
+- Interactive Streamlit interface.
 
-**[View project →](https://github.com/FranciscOrtiz33/geospatial-data-pipeline)**
+**Tech:** Python · Pandas · Shapely · PostgreSQL · PostGIS · Streamlit · Docker · QGIS · GeoJSON
 
-### 2. Titanic — Exploratory Data Analysis
+[**View project →**](https://github.com/FranciscOrtiz33/geospatial-data-pipeline)
+
+---
+
+### 3. Titanic — Exploratory Data Analysis
 
 **Python · Pandas · Matplotlib · Jupyter Notebook**
 
-Exploratory analysis of the Titanic passenger dataset, investigating the relationships between survival, sex, passenger class, and age.
+Exploratory analysis of the Titanic passenger dataset, investigating relationships between survival and passenger characteristics including sex, passenger class, and age.
+
+The project focuses on data exploration, missing-value analysis, group comparisons, visualization, and interpretation of patterns in the dataset.
 
 **Key features:**
-- Data exploration and missing-value analysis.
-- Survival rate comparisons.
-- Analysis of interactions between passenger characteristics.
+
+- Dataset inspection and missing-value analysis.
+- Survival-rate comparisons by sex.
+- Survival analysis by passenger class.
+- Age-group analysis.
+- Interaction analysis between sex and passenger class.
 - Data visualization and interpretation of findings.
 
-**[View project →](https://github.com/FranciscOrtiz33/python-data-analysis)**
+**Tech:** Python · Pandas · Matplotlib · Jupyter Notebook
+
+[**View project →**](https://github.com/FranciscOrtiz33/python-data-analysis)
+
+---
 
 ## Technical Skills
 
-**Programming and data:** Python, SQL, Pandas, NumPy
+**Programming & data analysis:**  
+Python · SQL · Pandas · NumPy
 
-**Databases and data engineering:** PostgreSQL, PostGIS, ETL, data validation, REST APIs
+**Data engineering:**  
+ETL/ELT · Data validation · REST APIs · Data preprocessing · Reproducible workflows
 
-**Geospatial:** Shapely, GeoPandas, QGIS, Google Earth Engine
+**Databases:**  
+PostgreSQL · PostGIS · Spatial SQL
 
-**Machine learning:** Scikit-learn, exploratory data analysis, model evaluation
+**Geospatial & remote sensing:**  
+GeoPandas · Shapely · QGIS · Google Earth Engine · Sentinel-2 · Landsat · SRTM · GeoJSON
 
-**Tools:** Git, GitHub, Docker, Streamlit, Jupyter Notebook
+**Machine learning:**  
+Scikit-learn · Random Forest · Feature engineering · Model evaluation · Classification
+
+**Visualization & applications:**  
+Streamlit · Folium · Matplotlib · Jupyter Notebook
+
+**Development tools:**  
+Git · GitHub · Docker · VS Code · WSL
+
+---
 
 ## About This Portfolio
 
-Projects are documented with their objectives, technologies, methodology, and limitations. The geospatial pipeline uses synthetic data and a standalone implementation suitable for public demonstration.
+The projects in this portfolio are designed to demonstrate practical skills across **data science, data engineering, machine learning, and geospatial analytics**.
+
+Each repository documents its objectives, methodology, technologies, implementation, and limitations.
+
+The projects range from exploratory data analysis to end-to-end applications involving geospatial processing, machine-learning models, database integration, quality-control workflows, remote sensing, and interactive visualization.
+
+Where proprietary datasets or systems were involved in the original professional context, the public implementations use synthetic, open, or independently reproducible data and workflows.
