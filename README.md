@@ -7,6 +7,32 @@ My work focuses on Python, data engineering, machine learning, and geospatial da
 
 ## Featured Projects
 
+## Urban Earth Observation
+
+**Geospatial Machine Learning · Remote Sensing · Google Earth Engine · Streamlit**
+
+Interactive geospatial application for city-specific land-cover classification, multitemporal change detection, and Land Surface Temperature analysis.
+
+The system trains a dedicated Random Forest model for each study area using Sentinel-2, spectral indices, SRTM, and ESA WorldCover reference labels. The trained classifier is reused for temporal inference, while Landsat 8/9 imagery is integrated to analyze surface temperature by predicted land-cover class.
+
+### Highlights
+
+- City-specific Random Forest models
+- Sentinel-2 multispectral processing
+- NDVI, NDBI, MNDWI, and BSI feature engineering
+- SRTM elevation and slope integration
+- Multiyear land-cover classification
+- Land-cover transition matrices
+- Gains and losses analysis
+- Landsat Land Surface Temperature
+- Integrated land-cover and thermal analysis
+- Interactive Streamlit and Folium interface
+- Google Earth Engine processing and GeoTIFF export
+
+**Tech:** Python · Google Earth Engine · Streamlit · Folium · Pandas · Random Forest · Sentinel-2 · Landsat · SRTM · ESA WorldCover
+
+[View Project](https://github.com/FranciscOrtiz33/urban-earth-observation)
+
 ### 1. Geospatial Data Validation & ETL Pipeline
 
 **Python · Shapely · Pandas · Streamlit · PostgreSQL/PostGIS · Docker · QGIS**
